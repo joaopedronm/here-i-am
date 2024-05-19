@@ -32,7 +32,7 @@
 
 4. Install the necessary libraries:
     ```sh
-    npm install @react-google-maps/api axios @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
+    npm install @react-google-maps/api axios @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event @babel/core @babel/preset-env @babel/preset-react babel-jest identity-obj-proxy jest-environment-jsdom
     ```
 
 
@@ -41,6 +41,15 @@
     npm run dev
     ```
 
+
+## Unit Tests - *Notes*
+
+For the tests to work correctly, you must modify line 13 of the Mapa.jsx file and line 22 of the Weather.jsx file, replacing the calls via .env and placing the API keys directly.
+I'll fix this configuration later to make the tests more fluid.
+
+---
+---
+---
 
 ### If you come across any bugs, please don't hesitate to open an issue on our GitHub repository. I also welcome suggestions for improvements or new features through GitHub issues. If you're interested in contributing code, feel free to fork the repository, make your changes, and submit a pull request. I'll review it promptly.
 

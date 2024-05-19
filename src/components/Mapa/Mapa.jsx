@@ -1,11 +1,9 @@
 // Packages
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 // CSS
 import './Mapa.css'
-
-// API Key
 
 const MapContainer = ({position}) => {
 
