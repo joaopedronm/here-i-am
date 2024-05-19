@@ -1,0 +1,15 @@
+body {
+  font-family: 'Poppins';
+}
+
+.mapContainer {
+  max-width: 90vw;
+  height: 80vh;
+  margin: 2rem auto;
+}
+
+.mapMarker {
+    margin-top: -30px;
+    background-color: #fff;
+}
+
